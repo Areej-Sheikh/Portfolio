@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className="fixed gap-4 flex-col text-center">
             {navLinks.map(({ href, label }) => (
               <li key={href}>
-                <a href={href} className="text-white text-lg">
+                <a href={href} className="text-white text-lg p-10">
                   {label}
                 </a>
               </li>
