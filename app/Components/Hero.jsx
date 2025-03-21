@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto mt-32 flex flex-col items-center justify-center gap-4">
-      <div className="rounded-full bg-[#1f1f1f] w-[350px] h-[350px] relative">
+    <div className="w-11/12 max-w-3xl text-center mx-auto mt-15 flex flex-col items-center justify-center gap-4">
+      <div className="rounded-full bg-[#1f1f1f] w-[230px] h-[230px] relative">
         <Image
           src={profile}
           alt="profile Image"
@@ -49,7 +49,9 @@ const Hero = () => {
         <a
           href=""
           className="px-10 py-3 rounded-full border border-gray-500 flex items-center gap-2  "
-        >My Resume</a>
+        >
+          My Resume
+        </a>
       </div>
     </div>
   );
