@@ -9,10 +9,12 @@ const Projects = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 50, opacity: 1 },
+    animate: { y: 0, opacity: 1 }, // Adjusted y-value to smoothly animate in
   };
+
   const filteredProjects =
     tag === "All"
       ? PROJECTS_DATA
@@ -40,13 +42,13 @@ const Projects = () => {
         ))}
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project) => (
+        {filteredProjects.map((project, index) => (
           <motion.li
             key={project.id}
             variants={cardVariants}
-            initial={initial}
+            initial="initial" // ✅ Fixed `initial` reference
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }} // ✅ Index added
           >
             <div>
               <div
