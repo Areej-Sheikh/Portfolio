@@ -26,7 +26,7 @@ const Projects = () => {
         My Projects
       </h2>
       <div className="flex flex-row text-white justify-center items-center gap-2 py-6">
-        {["All", "Web", "Mobile"].map((tagName) => (
+        {["All", "Frontend", "Backend", "Fullstack"].map((tagName) => (
           <button
             key={tagName}
             className={`${
