@@ -57,7 +57,7 @@ const Projects = () => {
                   backgroundImage: `url(${project.image})`,
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
-                  backgroundSize: "cover",
+                  backgroundSize: "contain",
                 }}
                 role="img"
                 aria-label={project.title}
