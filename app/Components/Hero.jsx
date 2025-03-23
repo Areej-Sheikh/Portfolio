@@ -41,14 +41,15 @@ const Hero = () => {
       </div>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
-          href=""
+          href="/contact"
           className="px-10 py-3 rounded-full border-white bg-[#1f1f1f] text-white flex items-center gap-2"
         >
           Contact Me
         </a>
         <a
-          href=""
-          className="px-10 py-3 rounded-full border border-gray-500 flex items-center gap-2  "
+          href="/resume.pdf"
+          download="Areej-Sheikh-Resume.pdf"
+          className="px-10 py-3 rounded-full border border-gray-500 flex items-center gap-2"
         >
           My Resume
         </a>
