@@ -36,10 +36,13 @@ const About = () => {
         >
           <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
           <p className="text-base lg:text-lg">
-            {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
-            itaque qui architecto soluta consequuntur officiis impedit mollitia
-            porro? Corporis, consequatur?
+            I specialize in the MERN stack passionate about building scalable
+            web solutions and user-friendly websites.  <br />
+            With expertise in front-end design and back-end development I develop seamless
+            applications that balance functionality and performance. <br />
+            I thrive on solving complex problems, staying updated with the latest
+            technologies, and continuously refining my skills to deliver
+            innovative and efficient digital solutions.
           </p>
           <div className="flex flex-row justify-start mt-8">
             {TAB_DATA.map(({ id, title }) => (
