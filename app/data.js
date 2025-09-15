@@ -19,14 +19,14 @@ export const TAB_DATA = [
       "CSS",
       "JavaScript",
       "TypeScript",
-      "Python",
+      "Java",
       "React.js",
       "Next.js",
       "GSAP",
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "Django",
+      "Springboot",
       "MongoDB",
       "MySQL",
       "Figma",
@@ -46,21 +46,20 @@ export const TAB_DATA = [
   },
 ];
 
-
 export const SERVICES_DATA = [
   {
     id: 1,
     title: "Frontend Development & UI Engineering",
     description:
       "Developing fast, interactive, and user-friendly interfaces using React.js, Next.js, Tailwind CSS, and GSAP. Ensuring seamless experiences across all devices.",
-    icon:ui,
+    icon: ui,
   },
   {
     id: 2,
     title: "Backend Development & API Integration",
     description:
       "Building robust and scalable server-side applications with Node.js, Express.js, Django, and Flask. Designing secure APIs and database solutions for seamless data flow.",
-    icon:backend,
+    icon: backend,
   },
   {
     id: 3,
@@ -74,7 +73,7 @@ export const SERVICES_DATA = [
 export const PROJECTS_DATA = [
   {
     id: 1,
-    title: "Google Drive Clone",
+    title: "Store It - A Cloud Storage Solution",
     description:
       "A full-stack cloud storage solution that enables users to upload, manage, and share files securely. It includes authentication, structured folders, and a real-time file update system.",
     image: "/google-drive-clone.png",
@@ -84,7 +83,7 @@ export const PROJECTS_DATA = [
   },
   {
     id: 2,
-    title: "Uber Clone",
+    title: "Rider - A Ride Booking App",
     description:
       "A ride-hailing platform that allows users to book rides, track drivers in real-time, and manage secure payments. Features include authentication, role-based access, and dynamic ride pricing.",
     image: "/uber-clone.png",
@@ -94,16 +93,6 @@ export const PROJECTS_DATA = [
   },
   {
     id: 3,
-    title: "Instagram Clone (Backend)",
-    description:
-      "A backend system replicating Instagram’s core functionality, including user authentication, post uploads, and session management. Features a secure database for storing user-generated content.",
-    image: "/instagram-clone.png",
-    tag: ["All", "Backend"],
-    gitUrl: "https://github.com/Areej-Sheikh/Instagram-Clone",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
     title: "Sundown Studio",
     description:
       "A visually dynamic landing page featuring immersive animations, smooth scrolling effects, and interactive elements to create an engaging user experience.",
@@ -113,7 +102,7 @@ export const PROJECTS_DATA = [
     previewUrl: "https://areej-sheikh.github.io/Sundown-Studio/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Better Off Studio",
     description:
       "A modern and interactive agency website featuring creative animations, seamless navigation, and a strong emphasis on visual storytelling.",
@@ -122,25 +111,4 @@ export const PROJECTS_DATA = [
     gitUrl: "https://github.com/Areej-Sheikh/Better-Off-Studio",
     previewUrl: "https://areej-sheikh.github.io/Better-Off-Studio/",
   },
-  {
-    id: 6,
-    title: "Simple Ecommerce Store",
-    description:
-      "A full-stack eCommerce platform that enables users to browse products, add them to a cart, and make secure purchases. Includes authentication, product management, and order processing.",
-    image: "/ecommerce-store.png",
-    tag: ["All", "Fullstack"],
-    gitUrl: "https://github.com/Areej-Sheikh/CodeAlpha_Simple_Ecommerce_Store",
-    previewUrl: "/",
-  },
-  {
-    id: 7,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio showcasing skills, projects, and experiences with a clean and modern UI. Features smooth animations, interactive elements, and a contact form using Nodemailer.",
-    image: "/portfolio.png",
-    tag: ["All", "Fullstack"],
-    gitUrl: "https://github.com/Areej-Sheikh/Portfolio",
-    previewUrl: "/",
-  },
 ];
-
