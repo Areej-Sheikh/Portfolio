@@ -44,6 +44,11 @@ export const TAB_DATA = [
     id: "certifications",
     content: ["MERN Stack Certification - Fullstack Web Development (Offline)"],
   },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: ["JAVA Full Stack Certification - upGrad"],
+  },
 ];
 
 export const SERVICES_DATA = [
@@ -110,5 +115,16 @@ export const PROJECTS_DATA = [
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Areej-Sheikh/Better-Off-Studio",
     previewUrl: "https://areej-sheikh.github.io/Better-Off-Studio/",
+  },
+  {
+    id: 5,
+    title: "Aura Stay",
+    description:
+      "A full-stack hotel management and rental platform where hosts can list properties, guests can securely browse, book, and pay, and admins oversee users, bookings, and payments.",
+    image: "/Hotel-Management",
+    tag: ["All", "Fullstack"],
+    gitUrl:
+      "https://github.com/Areej-Sheikh/Aura-Stay-Hotel-Management-Application.git",
+    previewUrl: "https://hotel-management-frontend-topaz.vercel.app/",
   },
 ];
