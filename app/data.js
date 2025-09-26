@@ -39,16 +39,15 @@ export const TAB_DATA = [
       "Bachelor of Technology (Computer Science) - Government Engineering College, Ajmer",
     ],
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: ["MERN Stack Certification - Fullstack Web Development (Offline)"],
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: ["JAVA Full Stack Certification - upGrad"],
-  },
+ {
+  title: "Certifications",
+  id: "certifications",
+  content: [
+    "MERN Stack Certification - Fullstack Web Development (Offline)",
+    // "JAVA Full Stack Certification - upGrad"
+  ],
+},
+
 ];
 
 export const SERVICES_DATA = [
@@ -120,8 +119,8 @@ export const PROJECTS_DATA = [
     id: 5,
     title: "Aura Stay",
     description:
-      "A full-stack hotel management and rental platform where hosts can list properties, guests can securely browse, book, and pay, and admins oversee users, bookings, and payments.",
-    image: "/Hotel-Management",
+      "A FullStack hotel management and rental platform where hosts can list properties, guests can securely browse, book, and pay, and admins oversee users, bookings, and payments.",
+    image: "/Hotel-Management.png",
     tag: ["All", "Fullstack"],
     gitUrl:
       "https://github.com/Areej-Sheikh/Aura-Stay-Hotel-Management-Application.git",
