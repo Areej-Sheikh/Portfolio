@@ -43,8 +43,7 @@ export const TAB_DATA = [
   title: "Certifications",
   id: "certifications",
   content: [
-    "MERN Stack Certification - Fullstack Web Development (Offline)",
-    // "JAVA Full Stack Certification - upGrad"
+    "MERN Stack Certification - Fullstack Web Development (Offline)"
   ],
 },
 
