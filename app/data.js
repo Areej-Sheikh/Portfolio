@@ -39,14 +39,14 @@ export const TAB_DATA = [
       "Bachelor of Technology (Computer Science) - Government Engineering College, Ajmer",
     ],
   },
- {
-  title: "Certifications",
-  id: "certifications",
-  content: [
-    "MERN Stack Certification - Fullstack Web Development (Offline)"
-  ],
-},
-
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: [
+      "Full Stack Java Development Certification - upGrad (ongoing) | 2025",
+      "MERN Stack Certification -  Sheriyans Coding School | 2024",
+    ],
+  },
 ];
 
 export const SERVICES_DATA = [

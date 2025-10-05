@@ -18,7 +18,6 @@ const About = () => {
       setTab(id);
     });
   };
-  console.log("TAB_DATA:", TAB_DATA);
 
   return (
     <section id="about" className="mt-10 mx-auto px-12 py-4">
