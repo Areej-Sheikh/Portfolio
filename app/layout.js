@@ -17,6 +17,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  console.log("React version:", require("react").version);
+console.log("Next.js version:", require("next/package.json").version);
+
   return (
     <html lang="en">
       <body
